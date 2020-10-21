@@ -1,0 +1,91 @@
+/*Estrutura do site*/
+
+*{
+
+	margin: 0;
+	padding: 0;
+}
+
+body{
+
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	
+}
+
+
+h1 {
+    color: #363636;
+    padding-left: 186px;
+    margin: 0;
+}
+
+h5 {
+    color: #363636;
+    padding-left: 180px;
+    margin: 0;
+}
+
+
+#container {
+	width: 799px;
+	margin: 0 auto;
+	
+}
+
+#topo {
+	height: 220px;
+	background: url(../imagens/executive.png) no-repeat right  top;
+	padding-top: 25px;
+	/*border: 1px solid red;*/
+}
+
+#autor{
+	text-indent: 60px;
+}
+
+/* Barra de navegação
+*/
+
+ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#topo ul{
+	background: #b10333;
+	float: left;
+}
+
+#topo ul li{
+	float: left;
+}
+
+#topo ul a{
+	font-size: 0.9em;
+	display: block;
+	padding: 0.5em 1.2em;
+	line-height: 2.1em;
+	text-decoration: none;
+	color: #fff;
+	background: url(../imagens/divisor.png) no-repeat left center;
+}
+
+#topo ul .primeiro a{
+	background: none;
+}
+
+#topo ul a:hover {
+	color: #69001d;
+}
+
+body.home #navegacao a#home,
+body.Escolaridade #navegacao a#Escolaridade,
+body.Qualificacao #navegacao a#Qualificacao,
+body.Últimos #navegacao a#Últimos,
+body.Soft #navegacao a#Soft
+{
+	color: #fff;
+	background: #de003e;
+	cursor: text;
+}
